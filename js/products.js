@@ -47,7 +47,7 @@ const obj = {
           if (!res.data.success) {
             console.log(res.data.message);
             alert(res.data.message);
-            location.href = "../index.html";
+            location.href = "https://echobomber.github.io/vue3_week4_main/index.html";
           }
         })
         .catch((err) => {

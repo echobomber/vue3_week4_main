@@ -28,7 +28,7 @@ const app = Vue.createApp({
             const { token, expired } = res.data;
             console.log(expired)
             document.cookie = `Vue3Token=${token}; expires=${new Date(expired)};`;
-            location.href = "pages/products.html";
+            location.href = "https://echobomber.github.io/vue3_week4_main/pages/products.html";
           }else {
             alert(res.data.message);
           }
