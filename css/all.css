@@ -1,0 +1,25 @@
+.editPanel-img {
+  max-height: 400px;
+  object-fit: cover;
+}
+.login-wrap {
+  position: relative;
+  height: 100vh;
+  max-width: 400px;
+}
+.login-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+/* products */
+@media (max-width: 768px) {
+  .products-table {
+    overflow-x: scroll;
+  }
+  .products-table table {
+    width: 1000px;
+  }
+}
